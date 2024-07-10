@@ -1,11 +1,11 @@
 package org.example;
 
 public class House {
-    int HousePrice;
-    String HouseAddress;
-    HouseTypes typehouse;
+    public int HousePrice;
+    public String HouseAddress;
+    public HouseTypes typehouse;
 
-    public House(int housePrice,String houseAddress,HouseTypes typehouse) {
+    public House(int housePrice, String houseAddress, HouseTypes typehouse) {
         HousePrice = housePrice;
         HouseAddress = houseAddress;
         this.typehouse = typehouse;
